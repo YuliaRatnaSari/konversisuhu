@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+#define r 0.8
+#define f 1.8
+
+int main()
+{
+    float hasil,C,F,R;
+    printf("Masukan suhu dalam celcius:");
+    scanf("%f",&C);
+    R = r*C;
+    F = (f*C)+32;
+    printf("Hasil dari Reamur:%.2f\n",R);
+    printf("Hasil dari Fahrenheit:%.2f\n",F);
+    return 0;
+}
